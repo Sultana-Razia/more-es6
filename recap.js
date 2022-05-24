@@ -17,6 +17,10 @@ function maxNumber(array = []) {
 const biggest = maxNumber();
 console.log(biggest);
 
+
+/* function square(x) {
+    return x * x;
+} */
 //arrow function
 const square = x => x * x;
 console.log(square(9));
